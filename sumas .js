@@ -19,7 +19,7 @@ function main(num) {
 
   return day;
 }
-
+ /*  ------------------------------------------------------------------------------------------ */
 /* main(valor numero que quiera)  */
 
 let test1 = (num) => {
@@ -40,14 +40,20 @@ return day;
 
 };
 
-/* function main2(flightNumber, flightStatus) {
-  take flight number and its status 
-  var flightNumber = 
-  var flightStatus =  */
+
+  /*  ------------------------------------------------------------------------------------------ */
+
+ /* function main2(flightNumber, flightStatus) { */
+  /* take flight number and its status  */
+  
+  var flight = { flightNumber:1948, flightStatus:"Volando"}
+  
+  var Number = "vuelo numero" + flight.flightNumber 
+  var Status = "ëstado del vuelo" +flight.flightStatus 
   
   /* var flight1 ={flightNumber, flightStatus }; */
 
-
+ 
 
   
   /* //assign a flight object to flight1 variable
@@ -65,23 +71,57 @@ function flight(flightNumber, status1) {
   this.number = flightNumber;
   this.status = status1;
 
-  var flight1 = new flight(234, volando);
 
 
+
+  
 };
 
 
 
+/* --------------------------------------------------------------------- */
+
+
+function main() {
+  var prodID = readLine();
+  var price = parseInt(readLine(),10);
+  var discount = parseInt(readLine(),10);
+  
+  var prod1= new Product(prodID, price);
+  
+  console.log(prod1.prodID + " price: " + prod1.price);
+  
+  
+  //haciendo un descuento
+  prod1.changePrice(discount);
+  
+  console.log(prod1.prodID + " new price: " + prod1.price);
+}
+
+function Product(prodID, price) {
+  this.prodID = prodID;
+  this.price = price;
+  //completa el método para hacer el descuento
+  this.changePrice = function(discount){
+  this.price = price-((discount/100)*price)
+  
+      
+  }
+};
+    
+/* --------------------------------------------------------------------- */
+
+
+    
 
 
 
 
 
+console.log("Main",main(42))
 
-    console.log("Flight",flight1(flight1.number, flight1.status));
+console.log("Test1",test1(128))
 
-    console.log("Test1",test1(128))
+console.log("Flight",flight(numero, estado));
 
-    console.log("Main",main(42))
-
-
+console.log("Product",Product(prodID, price));
