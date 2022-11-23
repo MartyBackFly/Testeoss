@@ -101,4 +101,4 @@ console.log(
   aeroportflights(1972, "llegando a lo de tu hermana")
 );
 
-console.log("FunctionProduct ==>", productos("azucaaaa", 1343, 1));
+console.log("FunctionProduct0 ==>", productos("azucaaaa", 1343, 1));
