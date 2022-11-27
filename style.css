@@ -1,0 +1,153 @@
+
+.intro {
+    background-color:#3584b9;
+    color:white;
+     padding-left:16px;
+     padding-top:8px;
+     padding-bottom: 8px;
+     margin-bottom: 8px;
+     border-radius: 10px;
+    }  
+
+.heading {
+    font-size:32px;
+    font-weight: bolder ;
+    }
+
+body{
+    font-family:"times new roman", aerian ;
+    padding-top:3px;
+    background-color:#C0C0C0;
+    
+    }
+
+
+.prof{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.contactinfo{
+    font-size: 15px;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color:#345623;
+    border-radius: 10px;
+    
+}
+.subheading{
+    font-size: 27px;
+    font-weight: bolder;
+    color: #3584b9
+} 
+
+
+
+
+.skills{
+    font-size: 25px;
+    
+}
+
+
+skill_per{
+    font-size: 15px;
+}
+
+.data{ 
+    font-size: 20px;
+    color: #152e3f;
+    font-weight: bolder;
+    
+    margin-left: 15px;
+
+}
+
+.jobtitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.heading .subheading {
+    text-transform:uppercase   ;
+    
+    
+}
+
+.skills ul li{
+
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+
+
+.skills ul li .skill_prog{
+    width: 60%; 
+    height: 18px;
+    
+    position: relative;
+    
+    
+}
+
+
+
+.skills ul li .skill_prog span{
+    position: absolute ;
+    
+    height: 100%;
+    background: #2F5A78;
+    
+    border-radius: 5px;
+}
+    
+    
+
+.skill_name{
+    width: 4px;
+    
+    
+}
+
+.skill_per{
+    width: 38px;
+    margin-right:15px;
+    float: right;
+    
+} 
+
+img{
+    border-radius: 5px;
+    /* float: left; */
+    
+}
+
+.contactinfo .icon{
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    color: #3780e0
+
+}
+
+
+
+.social .icon{
+    font-size: 20px;
+    float: left;
+    color: #3584b9
+    
+}
+
+.icondata{
+
+display: flex;
+align-items: center;
+margin: 8px 3px ;
+
+}
